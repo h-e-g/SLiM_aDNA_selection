@@ -1,8 +1,8 @@
-## Copyright 2021 GEH Institut Pasteur, Gaspard Kerner (gakerner@pasteur.fr)
+## Copyright 2021 GEH Institut Pasteur, Gaspard Kerner (gakerner@pasteur.fr) and Guillaume Laval (glaval@pasteur.fr)
 
 library(abc)
 
-# Read output parameter after SLiM simulations
+# Read output parameter from SLiM simulations
 dir1 # Points to the file with parameter data (one line per simulation)
 dir2 # Points to the file with frequency data (one line per simulation, columns are each time bin)
 dir3 # Points to the file with ancestry data (one line per simulation, columns are each time bin)
